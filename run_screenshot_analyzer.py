@@ -2,7 +2,7 @@ import time
 import os
 from analyzer import Analyzer
 
-WATCH_DIR = "/storage/emulated/0/TradeAnalyzer/screenshots"
+WATCH_DIR = "screenshots"
 
 def watch_and_analyze():
     print("📡 Real-time analyzer запущен. Ожидание новых скриншотов...")
